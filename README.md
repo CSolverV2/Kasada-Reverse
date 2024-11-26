@@ -15,6 +15,10 @@ Now, let's look into how Kasada functions
   - They are usually encoded and encrypted wthin a large string known as "bytecode"
   - This bytecode string is decoded for proper initilization to be used by the javascript when needed
 - Encryption
+  - Payload
+    - Payload gets a bunch of data from the browser and uses to confirm if user is a bot or not
+    - There is way too much to post everything in this readme, so i'll let you look for yourself
+    - Find a copy of a decrypted kasada fingerprint [here](https://github.com/CSolverV2/Kasada-Reverse/blob/main/scripts/payload.json)
   - Kasada is encrypted with the TEA algorithim
     - Uses a **64-bit block cipher** meaning the code processes data in 64-bit blocks
     - Uses a **128-bit key** meaning the key is split into 4 32-bit parts
