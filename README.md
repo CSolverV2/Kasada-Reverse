@@ -21,8 +21,8 @@ Now, let's look into how Kasada functions
     - Uses a **Feistel network** meaning the code uses a round-based structure with two 32-bit halves and involves shifts, additions, and XORs, which is like Feistel networks used in ciphers like TEA.
     - Uses multiple **Rounds** the code performs mutliple 32-bit rounds just like in the TEA algo
   - Key/IV
-    - The Key & IV in kasada's encryption is dynamically generated
-      - This means they are not static for specific versions or sites, but generated differetnly every time it is used
+    - The IV in kasada's encryption is dynamically generated
+      - This means IV is not static for specific versions or sites, (the key is), but generated differetnly every time it is used
       - This is done to make it more difficult to reverse and keep it secure and hard to recreate their encryption without sandboxing
       - For the encryption, you need the encryption code, you can find this in `scripts/encryption.py` and the original in `scripts/encryption.js`
      
@@ -45,6 +45,7 @@ Decrypted Payload w/ Key/IV
 # Credit
 
 **Cypher (me)**
+
 `@CSolverV2` - Telegram
 `CSolver.ai` - Discord
 
