@@ -1,9 +1,9 @@
 # Kasada-Reverse
 Reverse engeneered kasada.io "captcha" / antibot
 
-# Why
+# Hello
 
-Since [@H4cK3dR4Du](https://github.com/H4cK3dR4Du) leaked the kasada encryption and stuff, I thought I would share some of my research too
+This is simply a way ti teach anyone interested how to byoass Kasada's antibot, if you are interested in a solver or a more advanced solution, contact me on [telegram](https://t.me/CSolverV2) or [discord](https://discord.gg/cypa)
 
 # Let's Begin
 So first we need to ask ourselves, why the fuck am I spending my time on this (who tf cares about twitch?)
